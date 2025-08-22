@@ -1,0 +1,55 @@
+{
+  "name": "perplexity-ai-client",
+  "version": "1.0.0",
+  "description": "A professional Node.js client library and web interface for the Perplexity AI API, featuring context management and streaming responses",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "example": "node example.js",
+    "test": "node example.js",
+    "build": "echo 'No build step required'",
+    "lint": "echo 'No linter configured'"
+  },
+  "keywords": [
+    "perplexity",
+    "ai",
+    "api", 
+    "client",
+    "chatbot",
+    "streaming",
+    "context",
+    "nodejs",
+    "express",
+    "web-interface"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/perplexity-ai-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/perplexity-ai-client/issues"
+  },
+  "homepage": "https://github.com/yourusername/perplexity-ai-client#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {},
+  "files": [
+    "index.js",
+    "server.js",
+    "PerplexityClient.js",
+    "example.js",
+    "public/",
+    "README.md",
+    "LICENSE"
+  ]
+}
